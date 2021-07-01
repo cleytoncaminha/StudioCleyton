@@ -33,12 +33,13 @@ list-style: none;
 background-color: #73573f;
 align-items: center;
 font-weight: 500;
+justify-content: center;
 }
 
 .menu li {
     height: 100%;
     font-size: 2vh;
-   padding: 5px;
+   padding: 15px;
    }
 
 .menu li:hover{
@@ -127,6 +128,9 @@ footer{
 }
 
 @media screen and (max-width: 650px) {
+    .menu{
+        justify-content: left;
+    }
     .titulo{
         font-size: 300%;
     }
